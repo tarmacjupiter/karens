@@ -28,7 +28,7 @@ export default function Home(props) {
         alignItems: "center",
       }}
     >
-      <h1>{props.title}</h1>
+      <h1 style={{ color: "#E8E6E3" }}>{props.title}</h1>
       <div className={classes.root}>
         <Link
           to={props.location}

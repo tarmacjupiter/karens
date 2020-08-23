@@ -28,7 +28,7 @@ export default function WhatdoWeDo(props) {
         alignItems: "center",
       }}
     >
-      <h2>What do we do about these Karens?</h2>
+      <h2 style={{ color: "#E8E6E3" }}>What do we do about these Karens?</h2>
       <div className={classes.root}>
         <div style={{ flexDirection: "column", display: "flex" }}>
           <Link

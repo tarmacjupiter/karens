@@ -9,12 +9,13 @@ export default function Reflection() {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        color: "#E8E6E3",
       }}
     >
       <h1 style={{ textDecoration: "underline", marginTop: 30 }}>Reflection</h1>
       <p>For my teacher</p>
       <div style={{ margin: 50 }}>
-        <BorderWrapper innerPadding={25}>
+        <BorderWrapper innerPadding={25} borderColour={"#E8E6E3"}>
           <h3 style={{ fontSize: 25 }}>
             The target I was trying to bring attention to is a certain type of
             people called "Karens". This term is a slang definition for, "a
