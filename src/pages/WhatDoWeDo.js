@@ -28,11 +28,11 @@ export default function WhatdoWeDo(props) {
         alignItems: "center",
       }}
     >
-      <h1>What do we do about these Karens?</h1>
+      <h2>What do we do about these Karens?</h2>
       <div className={classes.root}>
         <div style={{ flexDirection: "column", display: "flex" }}>
           <Link
-            to={props.location}
+            to="/reflection"
             style={{
               flexDirection: "row",
               alignItems: "center",

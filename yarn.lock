@@ -5690,6 +5690,11 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-border-wrapper@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-border-wrapper/-/react-border-wrapper-1.0.3.tgz#6e8b7eb2b30712634884db2e643ed978472ce8c1"
+  integrity sha512-S3vcsT+SOfNsp5uBivgsoHl4EOm9GMsqYTbAJyQWe1hKstpTuY9lh1YaU2pjJp1j/VScImaYLBYaYuMpiqXIvw==
+
 react-dev-utils@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-0.5.2.tgz#50d0b962d3a94b6c2e8f2011ed6468e4124bc410"

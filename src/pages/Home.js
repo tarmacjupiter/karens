@@ -42,6 +42,7 @@ export default function Home(props) {
         >
           <Button variant="contained">{props.locationName}</Button>
         </Link>
+        <div style={{ marginBottom: 20 }} />
         <ReactPlayer url={props.url} controls={true} />
       </div>
     </div>

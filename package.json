@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "react": "^16.13.1",
+    "react-border-wrapper": "^1.0.3",
     "react-dom": "^16.13.1",
     "react-player": "^2.6.1",
     "react-router-dom": "^5.2.0",

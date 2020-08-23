@@ -1,16 +1,11 @@
 import React, { Component, Fragment } from "react";
-import {
-  BrowserRouter as Router,
-  NavLink,
-  Route,
-  Redirect,
-} from "react-router-dom";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 //Pages
 import Home from "./pages/Home";
 import WhatdoWeDo from "./pages/WhatDoWeDo";
+import Reflection from "./pages/Reflection";
 
 class App extends Component {
   render() {
@@ -19,7 +14,7 @@ class App extends Component {
         <Fragment>
           <Route exact path="/">
             <Home
-              title="Karens"
+              title="Karens..."
               location="/everywhere"
               locationName="Continue"
             />
@@ -58,6 +53,12 @@ class App extends Component {
           <Route exact path="/whatdowedo">
             <WhatdoWeDo />
           </Route>
+          <Route exact path="/reflection">
+            <Reflection />
+          </Route>
+          {/* REDIRECT */}
+          {/* <Route exact path="/404" component={PageNotFound} />
+          <Redirect path="/404" /> */}
         </Fragment>
       </Router>
     );
