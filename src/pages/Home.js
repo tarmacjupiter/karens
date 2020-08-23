@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
+import ReactPlayer from "react-player";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,6 +42,7 @@ export default function Home(props) {
         >
           <Button variant="contained">{props.locationName}</Button>
         </Link>
+        <ReactPlayer url={props.url} controls={true} />
       </div>
     </div>
   );

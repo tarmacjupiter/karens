@@ -10,6 +10,7 @@ import "./App.css";
 
 //Pages
 import Home from "./pages/Home";
+import WhatdoWeDo from "./pages/WhatDoWeDo";
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <Fragment>
           <Route exact path="/">
             <Home
-              title="Karen's"
+              title="Karens"
               location="/everywhere"
               locationName="Continue"
             />
@@ -31,7 +32,31 @@ class App extends Component {
             />
           </Route>
           <Route exact path="/inthestreets">
-            <Home title="In Our Streets" location="/" locationName="Continue" />
+            <Home
+              title="In Our Streets"
+              location="/inourschools"
+              locationName="Continue"
+              url="https://www.youtube.com/watch?v=HBspygDA8Vo"
+            />
+          </Route>
+          <Route exact path="/inourschools">
+            <Home
+              title="In Our Schools"
+              location="/inourstores"
+              locationName="Continue"
+              url="https://www.youtube.com/watch?v=ue2-_Uf19Io"
+            />
+          </Route>
+          <Route exact path="/inourstores">
+            <Home
+              title="In Our Stores"
+              location="/whatdowedo"
+              locationName="Continue"
+              url="https://www.youtube.com/watch?v=GbWarMopYjQ"
+            />
+          </Route>
+          <Route exact path="/whatdowedo">
+            <WhatdoWeDo />
           </Route>
         </Fragment>
       </Router>
